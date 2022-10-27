@@ -1,0 +1,12 @@
+<meta>
+	<info author="Konders,IIYAMA" type="script" name="Automatic resource compiler" version="1.0.0" />
+	
+	<script src="compiler_s.lua" />	
+	<export function="compileResource" type="server"/>
+	<aclrequest>
+		<right name="function.startResource" access="true" />
+		<right name="function.refreshResources" access="true" />
+		<right name="function.fetchRemote" access="true" />
+		<right name="general.ModifyOtherObjects" access="true" />
+	</aclrequest>
+</meta>
